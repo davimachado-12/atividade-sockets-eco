@@ -1,8 +1,8 @@
 # Relatório — Atividade Prática: Sockets TCP
 
 **Disciplina:** Sistemas Distribuídos
-**Dupla:** [Nome 1] / [Nome 2]
-**Data:**
+**Dupla:** André Filipe Martins / Davi Roberge Machado
+**Data:** 09/06/2026
 
 ---
 

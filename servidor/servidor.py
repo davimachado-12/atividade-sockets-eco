@@ -56,9 +56,12 @@ def iniciar_servidor():
             log(f"[SERVIDOR] Mensagem recebida: '{mensagem}'")
 
             # 6. Devolver a mensagem ao cliente (eco)
-            resposta = mensagem
+            resposta = mensagem.upper()
             conn.sendall(resposta.encode("utf-8"))
             log(f"[SERVIDOR] Eco enviado: '{resposta}'")
+
+            total_mensagens += 1
+            log(f"[SERVIDOR] Total de mensagens recebidas: {total_mensagens}")
 
         # 7. Encerrar a conexão com este cliente
         conn.close()
